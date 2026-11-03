@@ -47,8 +47,8 @@
     "altSwitcher": {
         "animationDurationMs": 200,
         "autoHideDelayMs": 1000,
-        "backgroundOpacity": 0.9,
-        "blurAmount": 0.05,
+        "backgroundOpacity": 0.1,
+        "blurAmount": 0,
         "compactStyle": false,
         "enableAnimation": false,
         "enableBlurGlass": false,
@@ -166,7 +166,7 @@
         },
         "colorInvert": false,
         "customTheme": {
-            "darkmode": true,
+            "darkmode": false,
             "m3background": "#282828",
             "m3error": "#fb4934",
             "m3errorContainer": "#cc241d",
@@ -523,9 +523,9 @@
             }
         },
         "effects": {
-            "blurRadius": 22,
-            "dim": 30,
-            "dynamicDim": 20,
+            "blurRadius": 0,
+            "dim": 0,
+            "dynamicDim": 0,
             "enableAnimatedBlur": false,
             "enableBlur": true,
             "ripple": {
@@ -541,7 +541,7 @@
                 "session": true,
                 "sparkleIntensity": 1
             },
-            "thumbnailBlurStrength": 50
+            "thumbnailBlurStrength": 60
         },
         "enableAnimation": true,
         "fillMode": "fill",
@@ -586,7 +586,7 @@
             "type": "random"
         },
         "videoPause": "covered",
-        "wallpaperPath": "/home/duck/Pictures/Wallpapers/wallhaven-y8zo1d.jpg",
+        "wallpaperPath": "/home/duck/Pictures/Wallpapers/wallhaven-y8kdvd.jpg",
         "wallpapersByMonitor": [
         ],
         "widgets": {
@@ -1148,7 +1148,7 @@
                     "output": "HDMI-A-2",
                     "widgets": {
                         "clock": {
-                            "x": 1659,
+                            "x": 1674,
                             "y": 101
                         },
                         "systemMonitor": {
@@ -3219,7 +3219,7 @@
         "backdropBlurEnable": true,
         "backdropBlurMode": "shell",
         "backdropBlurSaturation": 18,
-        "backdropBlurStrength": 72,
+        "backdropBlurStrength": 40,
         "backdropBlurTint": 28,
         "balancedGrid": true,
         "canvasScrubNavigation": true,
